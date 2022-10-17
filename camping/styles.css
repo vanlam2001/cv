@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #faf4f2;
+    color: #8d8d8d;
+}
+
+.clear {
+    clear: both;
+}
+/* header */
+.header {
+    background: #f8e1db;
+    /* padding: 20px 80px 20px 80px; */
+    /* top right bottom left */
+    /* short hand */
+    padding: 20px 80px;
+}
+
+.header ul{
+    margin-top: 20px;
+}
+
+.header img{
+    width: 40px;
+    /* height: 200px;
+    object-fit: contain; */
+}
+
+.header ul li{
+    display: inline;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+/* banner */
+.banner {
+    background-image: url(./Image/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    min-height: 400px;
+}
+
+/* activities */
+.activities{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.activities .title{
+    color: #8d8d8d;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.activities__item{
+    width: 25%;
+    float: left;
+    padding: 15px;
+      
+}
+
+.activities .item__container{
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.activities__item .item__img img{
+    width: 80%;
+    border-radius: 20px;
+    
+}
+
+.activities .item__img i{
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    right: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e76f51;
+}
+
+
+
+.activities .item__title h2{
+    color: #3b3735;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 11px;
+}
+
+
+.activities .item__title p{
+    line-height: 28px;
+    margin-top: 11px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.activities .item__title button{
+    padding: 13px 54px;
+    border-radius: 25px;
+    color: #8d8d8d;
+    border: transparent;
+    background-color: rgba(141, 141, 141, 0.2);
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 11px;
+}
+
+.activities .item__all button{
+    color: #e76f51;
+    border: 1px solid #e76f51;
+    border-radius: 25px;
+    padding: 13px 71px;
+    margin-bottom: 70px;
+    background-color: transparent;
+}
+
+.activities .item__title button:hover,
+.activities__ .item_all:hover{
+    background-color: #e76f51;
+    color: white;
+} 
+
+/* contact */
+.contact{
+    background-color: #f8e1db;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.contact .contact__left,
+.contact .contact__right{
+    float: left;
+    width: 50%;
+    padding: 20px 60px;
+}
+
+.contact .contact__left{
+    background: url(./Image/mask.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.contact .contact__right{
+    padding-top: 70px;
+}
+
+.contact .contact__right p{
+    margin: 12px 0 30px;
+}
+
+.contact .contact__right h3{
+    margin-bottom: 21px;
+}
+
+.contact .contact__app,
+.contact .contact__us{
+    float: left;
+    width: 50%;
+}
+
+.contact .contact__us i{
+    color: #e76f51;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/* footer */
+.footer{
+    background-color: #f8e1db;
+    border-radius: 100px 100px 0 0;
+    padding: 100px 30px;
+    color: #3b3735;
+}
+
+.footer  h3{
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.footer .footer__about{
+    float: left;
+    width: 40%;
+    line-height: 28px;
+    padding: 0 20px;
+}
+
+.footer .footer__list{
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.footer .footer__nav{
+    float: left;
+    width: 33.33%;
+}
+
+.footer .footer__nav li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.footer .footer__nav a{
+    text-decoration: none;
+    color: #3b3735;
+}
+
+.footer .footer__copyrights{
+    text-align: center;
+    padding-top: 30px;
+}
+
