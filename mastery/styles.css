@@ -158,14 +158,14 @@
 .item {
     float: left;
     width: 25%;
-    height: 170px;
+    height: 250px;
     background: #002146;
     border: 15px solid white;
 }
 
 .item i {
-    font-size: 40px;
-    padding-top: 30px;
+    font-size: 70px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
