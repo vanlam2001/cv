@@ -120,18 +120,20 @@
 }
 
 .number__item .num__1 {
-    font-size: 40px;
+    font-size: 50px;
     float: left;
-    width: 15%;
+    width: 20%;
     font-weight: bold;
     background-color: transparent;
+    font-family: sans-serif;
+    line-height: 48px;
+    color: #212529;
 }
 
 .number__item .num__2 {
     float: left;
     width: 80%;
     font-size: 20px;
-
 }
 
 .number__item .num__3 {
