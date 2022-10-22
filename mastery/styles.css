@@ -102,7 +102,7 @@
 
 /* number */
 .number {
-    padding: 70px 0;
+    padding: 70px;
     background-color: #f6f6f6;
     text-align: justify;
 }
@@ -122,24 +122,27 @@
 .number__item .num__1 {
     font-size: 50px;
     float: left;
-    width: 20%;
     font-weight: bold;
     background-color: transparent;
     font-family: sans-serif;
     line-height: 48px;
     color: #212529;
+    
 }
-
 .number__item .num__2 {
     float: left;
     width: 80%;
-    font-size: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    
 }
 
 .number__item .num__3 {
-    font-size: 20px;
-    padding: 29px;
+    font-size: 18px;
+    padding: 30px 75px;
 }
+
+
 
 
 /* intro */
