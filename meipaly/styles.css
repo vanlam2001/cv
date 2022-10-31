@@ -496,3 +496,8 @@ footer{
     opacity: 0;
 }
 
+.cd-top--is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
