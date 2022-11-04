@@ -139,7 +139,7 @@ header {
 .banner{
     padding-top: 180px;
     overflow: hidden;
-    background-image: url(/image/pic2.png);
+    background-image: url(./image/pic2.png);
     background-position: top;
     background-size: 100%;
 }
@@ -197,7 +197,7 @@ header {
 /* Services */
 .services{
     padding-top: 100px;
-    background-image: url(/image/bg2.png);
+    background-image: url(./image/bg2.png);
     background-size: cover;
     background-position: top center;
     text-align: center;
@@ -236,7 +236,7 @@ header {
 
 /* About */
 .about{
-    background-image: url(/image/bg15.png);
+    background-image: url(./image/bg15.png);
     background-size: 100%;
     background-position: center right;
     background-repeat: no-repeat;
@@ -284,7 +284,7 @@ header {
 
 /* number */
 .number{
-    background-image: url(/image/bg14.png);
+    background-image: url(./image/bg14.png);
     background-position: center;
     background-repeat: no-repeat;
     padding: 80px 0 50px;
@@ -327,7 +327,7 @@ header {
 
 /* story */
 .story{
-    background-image: url(/image/bg2.png);
+    background-image: url(./image/bg2.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -433,7 +433,7 @@ header {
 
 /* work */
 .work{
-    background-image: url(/image/bg17.png);
+    background-image: url(./image/bg17.png);
     background-size: cover;
     background-position: top center;
     text-align: center;
@@ -551,7 +551,7 @@ header {
 
 /* sales */
 .sales{
-    background-image: url(/image/bg16.png);
+    background-image: url(./image/bg16.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -577,7 +577,7 @@ header {
 }
 
 .sales__item:hover{
-    border-image: url(/image/br.png) 1 round;
+    border-image: url(./image/br.png) 1 round;
     
 }
 
@@ -701,7 +701,7 @@ header {
     position: absolute;
     left: 0;
     bottom: 0;
-    background-image: url(/image/pattern12.png);
+    background-image: url(./image/pattern12.png);
     background-position: bottom;
     background-size: contain;
     height: 100%;
@@ -805,7 +805,7 @@ header {
 
 /* posts */
 .posts{
-    background-image: url(/image/bg16.png);
+    background-image: url(./image/bg16.png);
     background-size: cover;
     background-position: top center;
     text-align: center;
@@ -878,7 +878,7 @@ header {
 
 /* footer */
 footer{
-    background-image: url(/image/bg4.png);
+    background-image: url(./image/bg4.png);
     display: block;
     height: auto;
     background-repeat: no-repeat;
@@ -892,7 +892,7 @@ footer{
 
 footer::before{
     content: "";
-    background-image: url(/image/pattern2.png);
+    background-image: url(./image/pattern2.png);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -908,7 +908,7 @@ footer::before{
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.1);
-    background-image: url(/image/pattern3.png);
+    background-image: url(./image/pattern3.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
